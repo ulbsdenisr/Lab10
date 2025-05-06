@@ -15,7 +15,9 @@ public class Main {
         persoane.add(new Persoana("Stan", "Mihai", 28));
 
         for (Persoana p : persoane) {
+            System.out.println("test");
             System.out.println(p);
+
         }
         System.out.println();
 
